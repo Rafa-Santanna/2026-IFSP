@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- LINGUA PORTUGUESA --> 
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <!-- RESPONSIVIDADE BÁSICA --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Bilheteria</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--DIV QUE CONTEM O BOTÃO--> 
+    <div class="container">
+        <h2>Controle de Lotação</h2>
+
+        <!-- FORMULÁRIO QUE O USUÁRIO DIGITARA OS NOMES --> 
+
+        <input type="text" id="nomeConvidado" placeholder="Digite o nome"><br>
+        <!-- BOTÃO --> 
+     <button onclick="processarConvidados()">
+        Iniciar processamento
+    </button>
+    <!-- CRIAÇÃO DA LISTA --> 
+    <ul id="ListaNomes"></ul>
+    <!-- CRIAÇÃO DE UM PARÁGRAFO QUE CONTÉM UMA MENSAGEM --> 
+    <p id="mensagem"></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
