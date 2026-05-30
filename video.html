@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    
+        <h1>Vídeo: Rotas Flask</h1>
+  <hr>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/sobre">Sobre</a>
+        <a href="/contato">Contato</a>
+        <a href="/video">Vídeo flask</a>
+
+    </nav>
+    <hr>
+    <main class="video-container">
+        
+        <p>
+            Clique abaixo para asssistir ao vídeo
+        </p>
+<a href="https://drive.google.com/file/d/1McSSNYHJGkwyP5GAN7RlNS5C-RGyfT5T/view?usp=drivesdk">
+    <img
+        src="{{url_for('static', filename='img/video.png')}}"
+        alt="Vídeo Flask"
+        class="imagem-video"
+    >
+</a>
+    </main>
+</body>
+</html>

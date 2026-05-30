@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    background: linear-gradient(to bottom, #001920, #021a38);
+    color:aliceblue;
+    padding: 10px;
+    
+
+}
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, #001920, #021a38);
+    color:aliceblue;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color: white;
+    color:#001920;
+    border-radius: 2px;
+    transition: 0.3s, color 0.3s;
+}
+
+hr
+    {
+    border: none;
+    height: 2px;
+    background: white;
+
+}
+body{
+    color: white;
+    background-color: #021a38;
+}
+img{
+    height: 600px;
+    align-items: center;
+}
+p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
